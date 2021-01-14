@@ -88,11 +88,11 @@ STRING a location such as city or address where the CPE took place, optional
 
 ## opencpe_url
 
-STRING URL of the CPE activity or linking to information about the CPE, optional",
+STRING URL of the CPE activity or linking to information about the CPE, optional
 
-## opencpe_cpe_hour
+## opencpe_cpe_hours
 
-NUMBER a decimal number of the amount of CPE hours being claimed
+NUMBER a decimal number of the amount of CPE hours being claimed, optional
 
 ## opencpe_valid_from
 
