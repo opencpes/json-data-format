@@ -68,7 +68,7 @@ STRING ISO8601, set by the client when the CPE is claimed (e.g. the opencpe_clai
 
 ## opencpe_type
 
-STRING from a list of options (to be provided here soon), it is mandatory
+STRING from a list of options (to be provided here soon) OR from a user defined string, it is mandatory
 
 ## opencpe_title
 
