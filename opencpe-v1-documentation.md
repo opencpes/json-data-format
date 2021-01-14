@@ -24,7 +24,9 @@ Example:
   "opencpe_url": "STRING URL optional",
   "opencpe_cpe_hours": "NUMBER",
   "opencpe_valid_from": "STRING ISO8601 optional",
-  "opencpe_valid_to": "STRING ISO8601 optional"
+  "opencpe_valid_to": "STRING ISO8601 optional",
+
+  "opencpe_searchable": "STRING public/private"
 }
 ```
 
@@ -101,3 +103,7 @@ STRING in ISO8601 format, the date from which the CPE was valid, if blank then a
 ## opencpe_valid_to
 
 STRING in ISO8601 format, the date until which theCPE is valid, if blank then assumed to be currently valid thus it is optional
+
+## opencpe_searchable
+
+STRING in format "public" or "private" and defaults to private, mandatory
