@@ -17,7 +17,9 @@
   "opencpe_description": "STRING description optional",
   "opencpe_location": "STRING location optional",
   "opencpe_url": "STRING URL optional",
-  "opencpe_cpe_hours": "NUMBER",
+  "opencpe_cpe_hours": "NUMBER optional",
   "opencpe_valid_from": "STRING ISO8601 optional",
-  "opencpe_valid_to": "STRING ISO8601 optional"
+  "opencpe_valid_to": "STRING ISO8601 optional",
+
+  "opencpe_searchable": "STRING public/private"
 }
