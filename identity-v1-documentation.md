@@ -14,15 +14,15 @@ Example:
   "email_history": [
     {
       "email": "STRING email@address mandatory",
-      "valid_from": "STRING ISO8601 mandatory",
-      "valid_to": "STRING ISO8601 mandatory"
+      "valid_from": "STRING ISO8601 optional",
+      "valid_to": "STRING ISO8601 optional"
     }
   ],
   "name_history": [
     {
       "name": "STRING name mandatory",
-      "valid_from": "STRING ISO8601 mandatory",
-      "valid_to": "STRING ISO8601 mandatory"
+      "valid_from": "STRING ISO8601 optional",
+      "valid_to": "STRING ISO8601 optional"
     }
   ]
 }
