@@ -3,7 +3,7 @@
   "data_format_version": "STRING 1.0 mandatory",
 
   "opencpe_guid": "STRING GUID mandatory",
-  "opencpe_issuedon": "STRING ISO8601 mandatory",
+  "opencpe_createdon": "STRING ISO8601 mandatory",
   "opencpe_issuedby": "STRING email/url/name mandatory",
 
   "opencpe_recipient": "STRING email, optional",
@@ -13,6 +13,7 @@
 
   "opencpe_type": "STRING typelist mandatory",
   "opencpe_title": "STRING title mandatory",
+  "opencpe_artifact_name": "STRING name of artifact optional",
   "opencpe_description": "STRING description optional",
   "opencpe_location": "STRING location optional",
   "opencpe_url": "STRING URL optional",
