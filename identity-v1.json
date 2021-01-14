@@ -1,0 +1,20 @@
+{
+  "data_format": "opencpes_identity",
+  "data_format_version": "1.0",
+  "email_current": "STRING",
+  "name_current": "STRING",
+  "email_history": [
+    {
+      "email": "STRING",
+      "valid_from": "DATETIME",
+      "valid_to": "DATETIME"
+    }
+  ],
+  "name_history": [
+    {
+      "name": "STRING",
+      "valid_from": "DATETIME",
+      "valid_to": "DATETIME"
+    }
+  ]
+}
