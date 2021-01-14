@@ -1,0 +1,22 @@
+{
+  "data_format": "STRING opencpes_claim mandatory",
+  "data_format_version": "STRING 1.0 mandatory",
+
+  "opencpe_guid": "STRING GUID mandatory",
+  "opencpe_issuedon": "STRING ISO8601 mandatory",
+  "opencpe_issuedby": "STRING email/url/name mandatory",
+
+  "opencpe_recipient": "STRING email, optional",
+
+  "opencpe_claimedby": "STRING email, optional",
+  "opencpe_claimedon": "STRING ISO8601 optional",
+
+  "opencpe_type": "STRING typelist mandatory",
+  "opencpe_title": "STRING title mandatory",
+  "opencpe_description": "STRING description optional",
+  "opencpe_location": "STRING location optional",
+  "opencpe_url": "STRING URL optional",
+  "opencpe_cpe_hours": "NUMBER",
+  "opencpe_valid_from": "STRING ISO8601 optional",
+  "opencpe_valid_to": "STRING ISO8601 optional"
+}
