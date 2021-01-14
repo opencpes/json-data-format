@@ -1,20 +1,21 @@
 {
-  "data_format": "opencpes_identity",
-  "data_format_version": "1.0",
-  "email_current": "STRING",
-  "name_current": "STRING",
+  "data_format": "STRING opencpes_identity",
+  "data_format_version": "STRING 1.0",
+  "identity_title": "STRING work/personal/company_name/etc"
+  "email_current": "STRING email@address",
+  "name_current": "STRING name",
   "email_history": [
     {
-      "email": "STRING",
-      "valid_from": "DATETIME",
-      "valid_to": "DATETIME"
+      "email": "STRING email@address",
+      "valid_from": "STRING ISO8601",
+      "valid_to": "STRING ISO8601"
     }
   ],
   "name_history": [
     {
-      "name": "STRING",
-      "valid_from": "DATETIME",
-      "valid_to": "DATETIME"
+      "name": "STRING name",
+      "valid_from": "STRING ISO8601",
+      "valid_to": "STRING ISO8601"
     }
   ]
 }
