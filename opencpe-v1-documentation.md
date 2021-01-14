@@ -56,7 +56,7 @@ longer term this may reference a separate record type, that is a FUTURE FEATURE
 
 STRING an email address optional
 
-If the CPE is created and pre-assigned to someone (e.g. a CSA Chapter meeting creates CPEs for everyone who registered and signed in for the meeting) then this field would be used to identify the recipient, and since it is email to also aid in delivery of the CPE claim to the user. If the opencpe_recipient is filled out then the opencpe_searchable MUST be set to "private".
+If the CPE is created and pre-assigned to someone (e.g. a CSA Chapter meeting creates CPEs for everyone who registered and signed in for the meeting) then this field would be used to identify the recipient, and since it is email to also aid in delivery of the CPE claim to the user. BUSINESS_LOGIC: If the opencpe_recipient is filled out then the opencpe_searchable MUST be set to "private".
 
 This field would be blank if someone is making a CPE claim for people to use, for example a training class where a CPE claim is shown at the end via QR code with no opencpe_recipient set, allowing anyone with the QR code to claim it.
 
@@ -94,11 +94,11 @@ STRING URL of the CPE activity or linking to information about the CPE, optional
 
 ## opencpe_cpe_hours
 
-NUMBER a decimal number of the amount of CPE hours being claimed, optional
+NUMBER a decimal number of the amount of CPE hours being claimed, optional. BUSINESS_LOGIC: can be 0.0, but not a negative number.
 
 ## opencpe_valid_from
 
-STRING in ISO8601 format, the date from which the CPE was valid, if blank then assumed to be from the beginning of time thus it is optional. For example a CSA Chapter meeting may choose to use the opencpe_valid_from to ensure people cannot claim CPE's for attending a meeting that hasn't happened yet, they would simply set the time of the meeting (e.g. the end of the meeting), after the meeting people can then claim the CPE for attending the meeting.
+STRING in ISO8601 format, the date from which the CPE was valid, if blank then assumed to be from the beginning of time thus it is optional. BUSINESS_LOGIC: For example a CSA Chapter meeting may choose to use the opencpe_valid_from to ensure people cannot claim CPE's for attending a meeting that hasn't happened yet, they would simply set the time of the meeting (e.g. the end of the meeting), after the meeting people can then claim the CPE for attending the meeting.
 
 ## opencpe_valid_to
 
